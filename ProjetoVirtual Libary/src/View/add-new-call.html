@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar livros</title>
+    <link rel="stylesheet" href="add-new-call.css">
+</head>
+
+<body>
+    <div>
+        <h1>Preencha os campos abaixo:</h1>
+        <form action="../Controller/Register.php?operation=insert" method="post">
+            
+            <input type="text" id="book_title" name="book_title" placeholder="Título do livro" required>
+            <input type="text"  id="author_name" name="author_name" placeholder="Nome do autor" required>
+            <input type="number" id="chapter_number" name="chapter_number" placeholder="n° de pag." required>
+            <input type="text" id="description_book" name="description_book" placeholder="Descrição do livro" required>
+            <input type="text" id="gender_book" name="gender_book" placeholder="gênero/categoria" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

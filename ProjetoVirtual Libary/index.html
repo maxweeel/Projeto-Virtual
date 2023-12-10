@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  
+  <body>
+    <main>
+        <form class="login" action="src/Controller/Auth.php" method="POST">
+            <input type="text" id="email" name="email" class="form-control"required placeholder="Digite seu e-mail">
+            <input type="password" id="password" name="password" class="form-control my-3" required placeholder="Digite sua senha">
+            <button type="submit">Entrar</button>
+            <h1>Ainda não tem uma conta?</h1><a href="src/View/cadastro.html">Clique aqui</a>
+        </form>
+</main>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+    "name": "qi/virtual-libery",
+    "autoload": {
+        "psr-4": {
+            "Qi\\VirtualLibery\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxweel Mertens de Mello",
+            "email": "maxweelmertensdemello@gmail.com"
+        }
+    ],
+    "require": {}
+}
